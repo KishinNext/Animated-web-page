@@ -384,19 +384,19 @@ export default {
             x:1980,
             y:439,
             ease:"none",
-            repeat:10,
+            repeat:100,
             repeatDelay:1,
-            
+            opacity:0
         })
 
         gsap.to("#blue-car",{
-            duration:18,
+            duration:20,
             x:112,
             y:-100,
             ease:"none",
-            repeat:10,
+            repeat:100,
             repeatDelay:1,
-            
+            opacity:0
         })
 
         gsap.to("#yellow-car",{
@@ -404,9 +404,9 @@ export default {
             x:560,
             y:1339,
             ease:"none",
-            repeat:10,
+            repeat:100,
             repeatDelay:1,
-            
+            opacity:0
         })
 
     }

@@ -9,7 +9,7 @@
 <style>
 
 body{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
@@ -17,7 +17,8 @@ body{
   text-decoration: none;
   color: white;
   background-color: #180037;
-  overflow: hidden;
+
+  max-width: 1475px;
 }
 
 h1, h2, h3, h4, p{

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero container">
       <div class="hero-content">
           <h1>Get in the driver's seat and <span>get paid</span></h1> 
           <p>Drive on the largest network of active riders</p>
@@ -40,10 +40,29 @@ export default {
 </script>
 
 <style>
+    @media (max-width: 1375px){
+        .hero{
+            flex-direction: row;
+        }
+        .illustration{
+            margin-left: 20%;
+        }
+    }
+    @media (max-width: 1200px){
+        .hero{
+            flex-direction: column-reverse;
+        }
+        .illustration{
+            margin-left: 0%;
+        }
+    }
     section.hero{
-
-        
-        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
     }
     section.hero h1{
         font-family: inherit;
@@ -72,31 +91,32 @@ export default {
     .singup-btn{
         background-color: white;
         color: #180037;
+        cursor: pointer;
     }
     .talk-btn{
         background-color:  #180037;
-        color: #ffffff;    
+        color: #ffffff;   
+        cursor: pointer;
     }
+
     .hero-content{
         max-width: 300px;
-        position:relative;
-        top: 30%;
-        left: 10%;
+
     }
+
     .illustration{
-        display: flex;
-        overflow: hidden;
-        height: 100vh;
-        align-items: flex-end;
-        
+
+        height: 50%;
+        width: 50%;
+        padding: 0;
+        margin-bottom: 10%;
     }
     .illustration svg{
-        position: absolute;
-        right: -1;
+        
         width: 100%;
-        height: auto;
-        padding-left: 10em;
-        margin-top: -50px;
+        height: 100%;
+        padding: 0;
+        margin: 0;
     }
 
 </style>
