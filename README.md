@@ -11,6 +11,6 @@ Build a single page web using animations in base SVG images.
 
 ## Desing
 
-![1](./desing/Captura.PNG)
+![1](./desing/Captura2.jpg)
 
 Thanks for view :green_heart:
